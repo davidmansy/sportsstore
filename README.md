@@ -1,0 +1,1 @@
+The Sports Store app of the great Pro AngularJS book by Adam Freeman.
