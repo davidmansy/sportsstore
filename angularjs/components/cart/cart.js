@@ -24,7 +24,7 @@ angular.module('cart', [])
 
     removeProduct: function(id) {
       for (var i = 0; i < cartData.length; i++) {
-        if (cartData.id === id) {
+        if (cartData[i].id == id) {
           cartData.splice(i, 1);
           break;
         }
